@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Freshchat</string>
+    <string name="freshchat_file_provider_authority">com.mageshr2494.freshchat.provider</string>
+
+</resources>
