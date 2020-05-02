@@ -21,16 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void freshchatInit() {
 
-//        FreshchatConfig config = new FreshchatConfig("b00f3ed0-2baf-47fe-9112-00c121eea513", "819ca885-b9ba-4cd7-a97a-1c48181e2857");
-
-
-        //magesh@shade6.com
-        FreshchatConfig config = new FreshchatConfig("e9821be8-40b6-45a0-8907-9ff3572d8738", "91552ca5-60be-4446-9485-51d69aaa23b0");
-
-
-        //W2d
-//        FreshchatConfig config = new FreshchatConfig("b78d884e-a79c-405f-bbc0-1b92e666641f", "89e82ab5-1366-4a8f-96a0-96e52f86375a");
-//        FreshchatConfig config = new FreshchatConfig("89e82ab5-1366-4a8f-96a0-96e52f86375a", "b78d884e-a79c-405f-bbc0-1b92e666641f");
+        FreshchatConfig config = new FreshchatConfig("APP_ID", "APP_KEY");
+        
         config.setDomain("https://msdk.in.freshchat.com");
         config.setCameraCaptureEnabled(true);
         config.setGallerySelectionEnabled(true);
